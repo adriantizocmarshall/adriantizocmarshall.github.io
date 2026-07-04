@@ -161,7 +161,7 @@ footer {
 
 /***** Video Styling *****/
 /* Formatting for background video */
-#Marfa_Video {
+#SS_Video {
     position: fixed; /* This fixes the video to the page */
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
     bottom: 0; /* This ensures no space between the edge of the video and the bottom of the page */
@@ -171,7 +171,7 @@ footer {
 
 /* Screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    #Marfa_Video {
+    #SS_Video {
         display: none;
     }
 }
